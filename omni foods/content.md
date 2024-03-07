@@ -20,3 +20,27 @@ primary color: #0CD0D0E
 - Hero 
 - Features 
 - how it works
+- Diets
+- Meals {and list of diets}
+- CTA  
+- Pricing
+- Gallery  
+- Testimonials
+- Featured in
+- footer
+
+
+
+### additional links
+
+- create account
+- sign in
+- IOS app
+- Android app
+- about omnifood
+- for business
+- cooking partners
+- careers
+- recipe directory
+- help center
+- privacy &  terms
