@@ -11,6 +11,8 @@ function resize() {
   H = canvas.height = innerHeight;
 }
 
+// this works fine i need to change the css properties
+
 var Len = 50;
 var xs = new Array(Len);
 var ys = new Array(Len);
