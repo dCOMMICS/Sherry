@@ -161,6 +161,24 @@ html, body {
     font-size: 20px;
 }
 
+.folow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.circle1 {
+    position: absolute;
+    -webkit-animation: pulse 2s infinite; 
+    animation: pulse 2s infinite;
+    background:#f9f9f9;
+    border-radius: 50%;
+    height: 0em;
+    width: 0em;
+    margin-top: 0em;
+    margin-left: 0em;
+}
+
 .elem i {
     font-size: 25px;
     font-weight: 500;
