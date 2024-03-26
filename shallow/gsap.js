@@ -14,5 +14,5 @@ gsap.to(progress,{
         height: "100%",
         top: "0",
         delay: 2,
-        backgroundColor:"rgba(255,255,255)"
+        // backgroundColor:"rgba(255,255,255)"
 })
