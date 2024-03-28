@@ -50,4 +50,3 @@ function animateNextFollower(deltaX, deltaY) {
 	// add stuff here for animation
 }
 
-// send improvements to @snorkltv on X
