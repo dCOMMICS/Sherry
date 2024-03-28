@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopify UI Example</title>
+</head>
+<body>
+    <h2>Product Options</h2>
+    <div>
+        <label for="color">Color:</label>
+        <select id="color">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+        </select>
+    </div>
+    <div>
+        <label for="size">Size:</label>
+        <select id="size">
+            <option value="s">Small</option>
+            <option value="m">Medium</option>
+            <option value="l">Large</option>
+        </select>
+    </div>
+    <div>
+        <label for="material">Material:</label>
+        <select id="material">
+            <option value="cotton">Cotton</option>
+            <option value="polyester">Polyester</option>
+            <option value="wool">Wool</option>
+        </select>
+    </div>
+    <button onclick="generateVariants()">Generate Variants</button>
+
+    <h2>Variants</h2>
+    <ul id="variants"></ul>
+
+    <script>
+        function generateVariants() {
+            var color = document.getElementById("color").value;
+            var size = document.getElementById("size").value;
+            var material = document.getElementById("material").value;
+
+            var variants = [];
+            variants.push(color + "-" + size + "-" + material);
+            // Add more logic to generate additional variants if needed
+
+            var variantsList = document.getElementById("variants");
+            variantsList.innerHTML = "";
+            variants.forEach(function(variant) {
+                var listItem = document.createElement("li");
+                listItem.innerText = variant;
+                variantsList.appendChild(listItem);
+            });
+        }
+    </script>
+</body>
+</html>
