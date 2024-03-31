@@ -55,7 +55,7 @@ body {
     object-fit: contain;
     border-radius: 50%;
 }
-
+ 
 .bird-left {
     z-index: 0;
     position: absolute;
