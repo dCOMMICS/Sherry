@@ -71,8 +71,7 @@ body {
 .bird-right {
     z-index: 0;
     position: absolute;
-    top: -100px;
-    
+    top: -100px;      
     left: 0px;
     width: 200px;
     height: 500px;
