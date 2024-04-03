@@ -6,3 +6,9 @@ const  person = {
 for ( const item in person ) {
     console.log(item)
 }
+
+
+
+
+
+
