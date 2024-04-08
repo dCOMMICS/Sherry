@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400&display=swap');
+
+input {
+    font-family: inherit;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 3em;
+
+}
+
+p {
+    font-family: 'IBM Plex Mono ', monospace;
+    color: midnightblue;
+}
+
+#name {
+    font-family: 'IBM Plex Mono', monospace;
+    color: midnightblue;
+    border: none;
+    text-align: start;
+    display: inline-block;
+    padding: 0;
+    font-size: 3em;
+    width: 100%;
+    margin: 0.2em 0 0.8em 0 ;
+
+
+}
+
+#name:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* https://codepen.io/deepister/pen/RwdjByE */
+
+button {
+    font-family: 'IBM Plex Sans', sans-serif;
+    border: 3px solid midnightblue;
+    border-radius: 0.4em;
+    padding: 0.6em 1.6em;
+    margin: 0 0.6em 0 0;
+    background-color: transparent;
+    font-weight: 400;
+    letter-spacing: 1em;
+    font-size: 1em;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: none;
+
+}
+
+#new {
+    color: midnightblue;
+
+}
+
+#new:hover {
+    color: white;
+    background-color: midnightblue;
+}
+
+#details:hover {
+    color: midnightblue;
+    background-color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+#detailsContainer {
+    margin-top: 10px;
+}
+
+#projectDetails {
+    font-family: 'IBM Plex Mono', monospace;
+    color: midnightblue;
+}
+
+#hints {
+    color: white;
+    background-color: darkorange;
+
+}
+
+#hints:hover{
+    color: darkorange;
+    background-color: white;
+}
