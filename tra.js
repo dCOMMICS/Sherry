@@ -7,3 +7,21 @@ const uniqueElements = array.filter ((element, index) => {
 });
 
 console.log(uniqueElements)
+
+
+//  write a function to generate a fibonacci series of a given length.
+
+function fibonacci(length) {
+    // initializing the array with the first two numbers of the series
+    fibArray = [0,1];
+
+    // generating the rest  of the series
+
+    for (let i = 2; i < length; i++) {
+        fibArray.push(fibArray[i]) + fibArray[i + 2];
+    }
+
+    return fibArray;
+}
+
+const series = fibonacci(7);
