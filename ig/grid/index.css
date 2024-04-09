@@ -17,6 +17,7 @@ img {
         aspect-ratio: 1;
         object-fit: cover;
         grid-column: span 2;
+        clip-path: ;
         &:nth-of-type(4) {
             grid-column: 2 / span 2;
         }
