@@ -4,7 +4,21 @@ body {
     display: grid;
     place-items: center;
 }
+img {
+    max-width: 100%;
+}
 
 .gallery {
-    
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 25rem;
+    img {
+        height: 100%;
+        aspect-ratio: 1;
+        object-fit: cover;
+        grid-column: span 2;
+        &:nth-of-type(4) {
+            grid-column: 2 / span 2;
+        }
+    }
 }
