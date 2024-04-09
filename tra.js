@@ -25,3 +25,11 @@ function fibonacci(length) {
 }
 
 const series = fibonacci(7);
+
+
+// reverse string using inbuilt methods and without methods
+
+let string = 'javascript';
+
+let reversed = string.split('').reverse().join('');
+console.log(reversedString);
