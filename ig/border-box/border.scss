@@ -16,3 +16,14 @@ article {
     gap: .5em;
     grid-template-columns: 100px 1fr;
 }
+
+h3{
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+img {
+    border-radius: 50%;
+    grid-column: 1 /2;
+    grid-row: 1 / 3;
+}
