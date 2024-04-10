@@ -11,14 +11,16 @@ img {
 .gallery {
     --image-size: 100px;
     display: grid;
-    grid-template-columns: repeat(6, var(--image-size));
-    grid-template-rows: repeat(3,var(--image-size));
+    grid-template-columns: repeat(6, var(--image-size) );
+    grid-template-rows: repeat(3,var(--image-size) );
     gap: .25rem;
     img {
         /* height: 100%; */
         aspect-ratio: 1;
         object-fit: cover;
+        border-radius: .25rem;
         grid-column: span 2;
+        transition: clip-path 500ms;
         /* grid-row: span 2; */
         clip-path:path('M 80 20 C 100 0 100 0 120 20 C 140 40 160 60 180 80 C 200 100 200 100 180 120 C 160 140 140 160 120 180 C 100 200 100 200 80 180 C 60 160 40 140 20 120 C 0 100 0 100 20 80 Z');
         &:nth-of-type(4) {
@@ -26,6 +28,7 @@ img {
         }
 
         &:hover{
+            z-index: 100;
             clip-path: path('M 0 0 C 100 0 100 0 200 0 C 200 50 200 50 200 80 C 200 100 200 100 200 120 C 200 150 200 150 200 200 C 100 200 100 200 0 200 C 0 150 0 150 0 120 C 0 100 0 100 0 80 Z');
         }
     }
