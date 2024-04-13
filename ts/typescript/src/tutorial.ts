@@ -1,13 +1,15 @@
 console.log("Tpeme");
 
-interface someValue {
-    name: string;
-    id: number;
-}
+// interface someValue {
+//     name: string;
+//     id: number;
+// }
 
-let someObj:someValue = {
-    name: "random",
-    id: 124,
-};
+// let someObj:someValue = {
+//     name: "random",
+//     id: 124,
+// };
 
-console.log(someObj)
+// console.log(someObj)
+
+let awesomeName:string = "craigAndDallurs"
