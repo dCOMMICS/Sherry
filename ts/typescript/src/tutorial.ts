@@ -12,5 +12,6 @@ console.log("Tpeme");
 
 // console.log(someObj)
 
-let awesomeName:string = "craigAndDallurs"
+let awesomeName:string = "craigAndDallurs";
+awesomeName = 'craigAndDallurs'
 
