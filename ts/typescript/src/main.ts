@@ -4,7 +4,7 @@ import './tutorial.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
-    
+    <p> This is TYPESCRIPT TUTORIALIZATION </p>
   </div>
 `
 
