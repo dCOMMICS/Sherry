@@ -58,6 +58,7 @@ img {
 }
 
 
+
 .char {
     filter: blur(calc(1rem * var(--blur, 1)));
     transition: filter var(--speed, 5s);
