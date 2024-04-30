@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         
+        
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
       <img className="w-full h-64 object-cover object-center" src="/portfolio/my-website/src/components/kachero dv.jpg" alt="Profile" />
       <div className="p-4">
