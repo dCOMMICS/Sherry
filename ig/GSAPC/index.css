@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: azure;
+
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+.box1 {
+    background-color: red;
+    height: 25pc;
+    width: 35pc;
+}
+
+.box2 {
+    background-color: aquamarine;
+    height: 25pc;
+    width: 35pc;
+}
