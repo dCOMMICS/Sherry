@@ -21,3 +21,6 @@
     stagger: 0.3,
     scale: 0.5,
  })
+
+
+//  https://cdnjs.com/libraries/gsap
