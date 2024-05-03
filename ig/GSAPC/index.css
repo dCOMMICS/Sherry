@@ -2,10 +2,72 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: gilroy;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
     color: azure;
 
 }
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
 
 html, body {
     height: 100%;
@@ -23,4 +85,41 @@ html, body {
     background-color: aquamarine;
     height: 25pc;
     width: 35pc;
+}
+
+.coffetabl {
+    width: 10pc;
+    height: 10pc;
+    background-color: #fff;
+}
+
+.coffetabl1 {
+    width: 10pc;
+    height: 10pc;
+    background-color: #f5f;
+}
+
+.coffetabl2 {
+    width: 10pc;
+    height: 10pc;
+    background-color: #064789;
+}
+
+.coffetabl3{
+    width: 10pc;
+    height: 10pc;
+    background-color: #283618;
+}
+
+.bro {
+    /* background-color: #DDA15E ; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+.part-2{
+    display: flex;
+    gap: 50px;
 }
