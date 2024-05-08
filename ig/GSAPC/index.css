@@ -4,13 +4,25 @@
     /* background-image: url(/ig/GSAPC/pexels-lany-18242625.jpg);
     object-fit: cover; */
     box-sizing: border-box;
-    font-family: "Lato", sans-serif;
+    font-family: "Sora", sans-serif;
     font-weight: 700;
     color: azure;
 
 }
 
+
+
 /* fonts added */
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 800 */
+
+.sora-uniquifier{
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
 
 .lato-thin i{
   font-family: "Lato", sans-serif;
