@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-image: url(/ig/GSAPC/pexels-lany-18242625.jpg);
+    object-fit: cover; */
+    box-sizing: border-box;
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    color: azure;
+
+}
+
+
+
+/* fonts added */
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 800 */
+
+.sora-uniquifier{
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.lato-thin i{
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+.box1 {
+    background-color: red;
+    height: 25pc;
+    width: 35pc;
+}
+
+.box2 {
+    background-color: aquamarine;
+    height: 25pc;
+    width: 35pc;
+}
+
+.coffetabl {
+    width: 10pc;
+    height: 10pc;
+    background-color: #fff;
+}
+
+.coffetabl1 {
+    width: 10pc;
+    height: 10pc;
+    background-color: #f5f;
+}
+
+.coffetabl2 {
+    width: 10pc;
+    height: 10pc;
+    background-color: #064789;
+}
+
+.coffetabl3{
+    width: 10pc;
+    height: 10pc;
+    background-color: #283618;
+}
+
+.bro {
+    /* background-color: #DDA15E ; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+.part-2{
+    display: flex;
+    gap: 50px;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    white-space: nowrap;
+}
