@@ -1,4 +1,4 @@
-
+import { Canvas } from '@react-three/fiber'
 import './App.css'
 
 const App = () => {
@@ -6,7 +6,12 @@ const App = () => {
 
   return (
     <>
-     <h1> Hello Mutherfuckerrrr</h1>
+     <Canvas>
+      <mesh>
+        <boxGeometry></boxGeometry>
+        <meshStandardMaterial></meshStandardMaterial>
+      </mesh>
+     </Canvas>
     </>
   )
 }
