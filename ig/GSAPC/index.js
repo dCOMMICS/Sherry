@@ -48,6 +48,16 @@ gsap.to(".ftr", {
 })
 
 
+// // what is GSAP. 
+// GSAP Basics
+// box animation 
+// text animation 
+// stagger 
+// repeat animation  or yoyo
+// GSAP timeline
+
+
+
 gsap.to(".coffetabl",{
     x:200,
     duration:3,
