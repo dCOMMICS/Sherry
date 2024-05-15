@@ -17,6 +17,7 @@ const App = () => {
 
 
       <mesh position={[2,-3,-3]}>
+        
         <boxGeometry args={[1,1,4]} />
         <meshStandardMaterial color={"pink"}/>
       </mesh>
