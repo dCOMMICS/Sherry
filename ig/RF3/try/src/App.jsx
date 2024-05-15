@@ -16,9 +16,9 @@ const App = () => {
       </mesh>
 
 
-      <mesh position={[1,0,0]}>
+      <mesh position={[2,-3,-3]}>
         <boxGeometry args={[1,1,4]} />
-        <meshStandardMaterial color={"orange"}/>
+        <meshStandardMaterial color={"pink"}/>
       </mesh>
      </Canvas>
     </>
