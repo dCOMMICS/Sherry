@@ -1,27 +1,56 @@
+// gsap.registerPlugin(ScrollTrigger);
+
+// document.addEventListener('DOMContentLoaded', function (){
+//     const footer = document.querySelector('.footer');
+//     const lastCard = document.querySelector('.card.scroll');
+//     const pinnedSections = gsap.utils.toArray('.pinned');
+
+//     pinnedSections.forEach( (section, index, sections) => {
+//         let img = section.querySelector('.img');
+
+//         let nextSection = sections[index + 1] || lastCard;
+
+//         let endScalePoint = `top+=${nextSection.offsetTop - section.offsetTop} top`;
+
+//         gsap.to(section, {
+//             scrollTrigger: {
+//                 trigger: section,
+//                 start: "top top ",
+//                 end: index === sections.length ? + `+=${lastCard.offsetHeight / 2}` : footer.offsetTop - windowInnerHeight,
+//                 pin: true,
+//                 pinSpacing: false,
+//                 scrub:1,
+//             },
+//         });
+
+//     });
+// })
+
+
+
 gsap.registerPlugin(ScrollTrigger);
 
-document.addEventListener('DOMContentLoaded', function (){
-    const footer = document.querySelector('.footer');
-    const lastCard = document.querySelector('.card.scroll');
-    const pinnedSections = gsap.utils.toArray('.pinned');
+document.addEventListener('DOMContentLoaded', function () {
+  const footer = document.querySelector('.footer');
+  const lastCard = document.querySelector('.card.scroll');
+  const pinnedSections = gsap.utils.toArray('.pinned');
 
-    pinnedSections.forEach( (section, index, sections) => {
-        let img = section.querySelector('.img');
+  pinnedSections.forEach((section, index, sections) => {
+    let img = section.querySelector('.img');
 
-        let nextSection = sections[index + 1] || lastCard;
+    let nextSection = sections[index + 1] || lastCard;
 
-        let endScalePoint = `top+=${nextSection.offsetTop - section.offsetTop} top`;
+    let endScalePoint = `top+=${nextSection.offsetTop - section.offsetTop} top`;
 
-        gsap.to(section, {
-            scrollTrigger: {
-                trigger: section,
-                start: "top top ",
-                end: index === sections.length ? + `+=${lastCard.offsetHeight / 2}` : footer.offsetTop - windowInnerHeight,
-                pin: true,
-                pinSpacing: false,
-                scrub:1,
-            },
-        });
-
+    gsap.to(section, {
+      scrollTrigger: {
+        trigger: section,
+        start: "top top",
+        end: index === sections.length ? `+=${lastCard.offsetHeight / 2}` : footer.offsetTop - window.innerHeight,
+        pin: true,
+        pinSpacing: false,
+        scrub: 1,
+      },
     });
-})
+  });
+});
