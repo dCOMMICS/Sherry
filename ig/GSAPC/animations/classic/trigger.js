@@ -11,5 +11,17 @@ document.addEventListener('DOMContentLoaded', function (){
         let nextSection = sections[index + 1] || lastCard;
 
         let endScalePoint = `top+=${nextSection.offsetTop - section.offsetTop} top`;
+
+        gsap.to(section, {
+            scrollTrigger: {
+                trigger: section,
+                start: "top top ",
+                end: index === sections.length ? + `+=${lastCard.offsetHeight / 2}` : footer.offsetTop - windowInnerHeight,
+                pin: true,
+                pinSpacing: false,
+                scrub:1,
+            },
+        });
+
     });
 })
