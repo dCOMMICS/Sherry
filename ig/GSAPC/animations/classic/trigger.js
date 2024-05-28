@@ -52,5 +52,26 @@ document.addEventListener('DOMContentLoaded', function () {
         scrub: 1,
       },
     });
+    gsap.fromTo(img, {scale:1},{
+        scale:0.5,
+        ease: "none",
+        scrollTrigger: {
+            trigger: section,
+            start: "top top",
+            end: endScalePoint,
+            scrub: 1,
+        }
+    })
   });
+
+  const heroH1 = document.querySelector('.hero-h1');
+  scrollTrigger.create ({
+    trigger: document.body,
+    start: 'top top',
+    end: "+=400vh",
+    scrub: 1,
+    onUpdate: (self) => {let opacityProgress = self.progress;
+        heroH1.style.opacity = 1 - opacityProgress;
+    },
+  })
 });
