@@ -74,4 +74,4 @@ document.addEventListener('DOMContentLoaded', function () {
         heroH1.style.opacity = 1 - opacityProgress;
     },
   })
-});
+});  
