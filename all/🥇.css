@@ -131,3 +131,19 @@ section h3 {
     color: #fff;
     text-align: center;
 }
+
+.card:nth-child(2) {
+    transform: translateY(4%) translateX(4%);
+}
+
+.card:nth-child(3) {
+    transform: translateY(8%) translateX(8%);
+}
+
+.card:nth-child(4) {
+    transform: translateY(12%) translateX(12%);
+}
+
+.card:nth-child(5) {
+    transform: translateY(16%) translateX(16%);
+}
