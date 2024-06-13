@@ -148,4 +148,15 @@ section h3 {
     transform: translateY(16%) translateX(16%);
 }
 
+
+/* h1{
+    position: absolute;
+    inset: 0 0 0 0 ;
+    content: attr(data-content);
+    z-index: 2;
+    -webkit-text-stroke: 2px #fff;
+    font-family: Poppins;
+    text-align: right;
+    max-width: 200px;
+} */
 /*  update code base */
