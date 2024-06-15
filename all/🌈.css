@@ -18,3 +18,17 @@ body {
     justify-content: center;
     place-items: center;
 }
+
+.side {
+    position: absolute;
+    width: 380px;
+    height: 380px;
+}
+
+.side .front {
+    background: rgba(30, 30, 30, 0.8);
+    border: 1px dashed rgba(175,175,175,0.8 );
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
